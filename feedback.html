@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Customer Feedback</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+
+<header>
+    <h1>Customer Feedback</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="feedback.html">Feedback</a>
+    <a href="support.html">Support</a>
+    <a href="corporate.html">Company</a>
+</nav>
+
+<section class="content">
+    <h2>Rate the Underwood No. 5</h2>
+
+    <form id="feedbackForm">
+        <label>Name:</label>
+        <input type="text" required>
+
+        <label>Rating (1–5):</label>
+        <select required>
+            <option value="">Select…</option>
+            <option>1</option><option>2</option>
+            <option>3</option><option>4</option>
+            <option>5</option>
+        </select>
+
+        <label>Comments:</label>
+        <textarea required></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <p id="feedbackMessage"></p>
+</section>
+
+<footer>
+    <p>© 1915 Underwood Company</p>
+</footer>
+
+</body>
+</html>
